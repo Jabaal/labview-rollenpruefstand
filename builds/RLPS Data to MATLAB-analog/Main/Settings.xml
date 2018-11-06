@@ -1,0 +1,127 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>18.0f1</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>25</NumElts>
+<DAQChannel>
+<Name>DAQmx Channel 1</Name>
+<Val></Val>
+</DAQChannel>
+<DAQChannel>
+<Name>DAQmx Channel 2</Name>
+<Val></Val>
+</DAQChannel>
+<DAQChannel>
+<Name>DAQmx Channel 3</Name>
+<Val></Val>
+</DAQChannel>
+<String>
+<Name>Channel 1 Name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Channel 2 Name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Channel 3 Name</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>Input Config Channel 1</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Input Config Channel 2</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Input Config Channel 3</Name>
+<Val>0</Val>
+</I32>
+<DBL>
+<Name>Offset Channel 1</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset Channel 2</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset Channel 3</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Scale Channel 1</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Scale Channel 2</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Scale Channel 3</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Sample time</Name>
+<Val>0</Val>
+</U32>
+<DBL>
+<Name>Samples per second</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Sample mode</Name>
+<Val>0</Val>
+</U16>
+<I32>
+<Name>Samples per channel</Name>
+<Val>0</Val>
+</I32>
+<Refnum>
+<Name>DAQmx AI Task</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DAQChannel>
+<Name>DAQmx Channel 4</Name>
+<Val></Val>
+</DAQChannel>
+<String>
+<Name>Channel 3 Name 2</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>Input Config Channel 4</Name>
+<Val>0</Val>
+</I32>
+<DBL>
+<Name>Offset Channel 4</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Scale Channel 4</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\lauri\Documents\LabVIEW Data\Logged Data.tdms</Val>
+</Path>
+<Refnum>
+<Name>TDMS File Reference</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+</Cluster>
+</LVData>
